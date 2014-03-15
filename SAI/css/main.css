@@ -1,0 +1,54 @@
+/*background*/
+
+body {
+	background-color: #FFFFFF;
+}
+
+div#line{
+	background-color: #ec1d25;
+	height: 5px;
+	width: auto;
+	margin: 150 0 30 0;
+}
+
+div#line1{
+	background-color: #ec1d25;
+	height: 5px;
+	width: auto;
+	margin:;
+}
+
+
+/* login form */
+
+.login{
+	margin: 0 auto;
+	padding: 0 auto;
+	text-align:center;
+	padding-top: 50px;
+}
+
+.text_login{
+	background-color: #ce0b14;
+	border-radius: 7;
+	width: 350px;
+	height:40px;
+}
+
+#btn_login{
+	background-color: #ffd421;
+	border-radius: 7;
+	width: 100px;
+	height:40px;
+}
+
+#btn_cancel{
+	background-color: #e7e7e7;
+	border-radius: 7;
+	width: 100px;
+	height:40px;
+}
+
+#p_login{
+	font-style: 
+}
