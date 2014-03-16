@@ -1,0 +1,164 @@
+/*background*/
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+	outline: none;
+}
+
+body {
+	background-color: #FFFFFF;
+}
+
+/* Content */
+
+div#line{
+	background-color: #ec1d25;
+	height: 5px;
+	width: auto;
+	margin: 0 0 30 0;
+	margin-bottom: 150px;
+}
+
+div#line1{
+	background-color: #ec1d25;
+	height: 5px;
+	width: auto;
+	margin-top: 100px;
+}
+
+header{
+	text-align: center;
+	margin: 0 auto;
+	padding: auto;
+}
+
+#head_logo{
+	
+}
+
+footer{
+	text-align:center;
+	color: #ec1d25;
+	margin-top: 5px;
+}
+
+div#line2{
+	background-color: #ec1d25;
+	height: 5px;
+	width: auto;
+	margin-bottom:30px;
+}
+
+div#line4{
+	background-color: #ec1d25;
+	height: 5px;
+	width: auto;
+	margin-top: 60px;
+}
+
+
+/* login form */
+
+
+.login form{
+	margin: 0 auto;
+	padding: 0 auto;
+	text-align:center;
+	font-weight: bold;
+	clear:both;
+}
+
+.text_login{
+	background-color: #ce0b14;
+	border-radius: 7;
+	width: 350px;
+	height:40px;
+	color: #FFFFFF;
+	padding-left: 5px;
+	font-weight: bold;
+	border-style: none;
+}
+
+#btn_login{
+	background-color: #ffd421;
+	font-weight: bold;
+}
+
+#btn_cancel{
+	background-color: #e7e7e7;
+	margin-left: 5px;
+	font-weight: bold;
+
+}
+
+.btn_loginform{
+	border-radius: 7;
+	width: 100px;
+	height:40px;
+	border-style: none;
+	margin-top: 15px;
+	position: relative;
+	right: -75px;
+	margin-left: -10px;
+}
+
+label{
+	color: #969595;
+	position: relative;
+	left:-130px;
+	margin-top: -5px;
+}
+
+#p_login{
+}
+
+#p_login2{
+	margin-top: 5px;
+}
+
+/* Navigation */
+
+img#btnhome{
+	width: 70px;
+	height: 70px;
+	position: fixed;
+	left:100px;
+}
+
+
+nav{
+	width: 280px;
+	position: relative;
+	left: 100px;
+	bottom: -60px;
+}
+
+ul, li{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+li{
+	background-color: #ec1d25;
+	border-radius: 3px;
+	margin-top: 4px;
+	height: 50px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 24px;
+	text-align: left;
+	padding: auto;
+}
+
+li a{
+	font-weight: bold;
+	font-size: 36px;
+	color:#ffffff;
+	height: 50px;
+	display: block;
+	padding-left: 10px;
+	text-decoration: none;
+}
+	
