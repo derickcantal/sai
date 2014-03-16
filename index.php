@@ -33,3 +33,24 @@ include("connection.php");
 </body>
 </html>
 
+<?php
+
+if(isset($_POST["submit"]))
+{
+	$username = $_POST["username"];
+	$password = $_POST["password"];
+
+	if($username == "" || $password == "")
+	{
+		print "Invalid Input"
+	}
+	else
+	{
+		header("location:home.php");
+	}
+
+
+
+}
+
+?>
