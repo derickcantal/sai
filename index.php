@@ -1,7 +1,7 @@
 
 <?php
 
-include("connection.php");
+include("database/connection.php");
 
 ?>
 
@@ -20,9 +20,9 @@ include("connection.php");
 <div class="login">
 	<form action="" method="post">
 		<p id="p_login"><label>Username:<br></label>
-		<input type="text" name = "username"class="text_login" autofocus/><br><br>
+		<input type="text" name = "username1" class="text_login" autofocus/><br><br>
 		<label>Password:<br></label>
-		<input type="password" name = "password" class="text_login"/><br></p>
+		<input type="password" name = "password1" class="text_login"/><br></p>
 		<input type="submit" value="Login" id="btn_login" class="btn_loginform" />
 		<input type="reset" value="Cancel" id="btn_cancel" class="btn_loginform"/></p><br>
 	</form>
@@ -37,16 +37,18 @@ include("connection.php");
 
 if(isset($_POST["submit"]))
 {
-	$username = $_POST["username"];
-	$password = $_POST["password"];
+	
+	$username = $_POST["username1"];
+	$password = $_POST["password1"];
 
 	if($username == "" || $password == "")
 	{
-		print "Invalid Input"
+		print "Invalid Input";
 	}
 	else
 	{
 		header("location:home.php");
+		print("Successful Login");
 	}
 
 
