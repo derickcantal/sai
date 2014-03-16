@@ -1,3 +1,10 @@
+
+<?php
+
+include("connection.php");
+
+?>
+
 <html>
 <head>
 <link rel="icon" type="image/ico" href="img/sanmig.ico"></link>
@@ -11,11 +18,11 @@
 <div id="line"></div>
 
 <div class="login">
-	<form>
+	<form action="" method="post">
 		<p id="p_login"><label>Username:<br></label>
-		<input type="text" class="text_login" autofocus/><br><br>
+		<input type="text" name = "username"class="text_login" autofocus/><br><br>
 		<label>Password:<br></label>
-		<input type="password" class="text_login"/><br></p>
+		<input type="password" name = "password" class="text_login"/><br></p>
 		<input type="submit" value="Login" id="btn_login" class="btn_loginform" />
 		<input type="reset" value="Cancel" id="btn_cancel" class="btn_loginform"/></p><br>
 	</form>
@@ -25,3 +32,4 @@
 <footer>Sales and Inventory System</footer>
 </body>
 </html>
+
