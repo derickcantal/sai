@@ -167,11 +167,20 @@ To:
 <option value = "2013">2013</option>
 </select>
 
-</form>
+
 
 <input type = "submit" name = "search" value = "Search" class = "btn_loginform" style ="left: 27;">
 
-
+</form>
 
 
 </html>
+
+<?php
+
+if(isset($_POST["search"]))
+{
+	print "<br><center><font color = red>Still Working on Search!</font></center>";
+}
+
+?>

@@ -1,15 +1,16 @@
-<html>
 
-&nbsp;&nbsp;&nbsp;&nbsp;<a href = "home.php">back</a><br><br>
-
+&nbsp;&nbsp;&nbsp;&nbsp;<a href = "sales.php">back</a><br><br>
 <center>
-<h1>Sales</h1><br>
-
 <form action = "" method="post">
 
 <table align = "center">
+
 <tr>
-<td>Product Name: <td><input type = "text" name ="pname"><br>
+<td>Product ID: <td><input type = "text" name ="pid" readonly><br>
+</tr>
+
+<tr>
+<td>Product Name: <td><input type = "text" name ="pname" readonly><br>
 </tr>
 
 <tr>
@@ -56,9 +57,27 @@
 </table>
 </center>
 <center>
-<input type = "submit" value = "Save" class = "btn_loginform" style = "left: 10;">&nbsp;&nbsp;&nbsp;&nbsp;
+<input type = "submit" name = "submit" value = "Save" class = "btn_loginform" style = "left: 10;">&nbsp;&nbsp;&nbsp;&nbsp;
 
 </center>
 </form>
 
-</html>
+
+
+<?php
+
+if(isset($_POST["submit"]))
+{
+
+	$pid = $_POST["pid"];
+	$pname = $_POST["pname"];
+	$nocase = $_POST["nocase"];
+	$volume = $_POST["volume"];
+
+	print "<br><center><font color = red>Still Working on Save!</font></center>";
+}
+
+
+
+?>
+
