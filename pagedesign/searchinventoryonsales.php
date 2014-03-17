@@ -18,36 +18,43 @@
 
 if(isset($_POST["spid"]))
 {
+	
 	$pid = $_POST["pid"];
 
+	include("sqlCommands/searchproduct.php");
 	if (!$pid == "")
 	{
+		$test = mysql_query($searchproduct);
+		$row = mysql_fetch_array($test);
 
-		include("sqlCommands/searchproduct.php");
+		$Prod = "$row[PID]";
+		$Pname = "$row[Pname]";
+		$Nocase = "$row[Nocase]";
+		$Volume = "$row[Volume]";
+		$Stocks = "$row[Stocks]";
+		$Price = "$row[Price]";
 
-		$query = mysql_query($searchproduct);
-
-		
-		
-		if($query)
+		if($row)
 		{
-			header("Location:saleson.php");
-
-
+			if($Prod == "")
+			{
+				print "<br><center><font color = red>No Data Found!</font></center>";
+			}
+			else
+			{
+				print "<br><center><font color = green>Data Found!</font></center>";
+			}
 		}
 		else
 		{
-
+			print "<br><center><font color = red>No Data Found!</font></center>";
 		}
-		
-	
 	}
 	else
 	{
-		print "<br><center><font color = red>Please Input Product ID!</font></center>";
+		print "<br><center><font color = red>Please input Product ID!</font></center>";
 	}
 	
-
 }
 
 
