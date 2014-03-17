@@ -1,7 +1,10 @@
 <html>
 
 &nbsp;&nbsp;&nbsp;&nbsp;<a href = "home.php">back</a><br><br>
+
+
 <center>
+<h1> Inventory</h1><br>
 <form action = "" method="post">
 
 <table align = "center">
@@ -32,8 +35,26 @@
 </table>
 </center>
 <center>
-<input type = "submit" value = "Save" class = "btn_loginform">
+<input type = "submit" name = "submit" value = "Save" class = "btn_loginform" style = "left: -2;">&nbsp;&nbsp;&nbsp;&nbsp;
+<input type = "submit" name = "edit" value = "Edit" class = "btn_loginform" style = "left: 2;">
 </center>
 </form>
 
 </html>
+
+<?php
+if(isset($_POST["submit"]))
+{
+
+
+
+
+
+
+}
+
+if(isset($_POST["edit"]))
+{
+print "<br><center><font color = red>Still Working on Edit!</font></center>";
+}
+?>
