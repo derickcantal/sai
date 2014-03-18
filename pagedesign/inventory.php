@@ -9,27 +9,27 @@
 
 <table>
 <tr>
-<td>Product Name: <td><input type = "text" name ="pname"><br>
+<td><p id="p_login">Product Name: </p><input type = "text" name ="pname" class="text_login" autofocus><br>
 </tr>
 
 <tr>
-<td>No of Case per bottle: <td><input type = "text" name = "nocase"><br>
+<td><p id="p_login">No of Case per bottle: </p><input type = "text" name = "nocase" class="text_login" autofocus><br>
 </tr>
 
 <tr>
-<td>Volume: <td><input type = "text" name = "volume">
-<select name = "volabel">
+<td><p id="p_login">Volume: </p><input type = "text" name = "volume" class="text_login" autofocus>
+<select name = "volabel" class="text_login" autofocus style = "width:50">
 <option value = 'l'>l</option>
 <option value = 'ml'>ml</option>
 </select><br>
 </tr>
 
 <tr>
-<td>Stocks: <td><input type = "text" name = "stocks"><br>
+<td><p id="p_login">Stocks: </p><input type = "text" name = "stocks" class="text_login" autofocus><br>
 </tr>
 
 <tr>
-<td>Price: <td><input type = "text" name = "price"><br>
+<td><p id="p_login">Price: </p><input type = "text" name = "price" class="text_login" autofocus><br>
 </tr>
 
 </table>

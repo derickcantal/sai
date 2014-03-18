@@ -1,25 +1,26 @@
 <html>
 
 &nbsp;&nbsp;&nbsp;&nbsp;<a href = "home.php">back</a><br><br>
+	
 <center>
 <h1>Users</h1><br>
 <form action = "" method= "POST">
 
 <table align = "center">
 <tr>
-<td>Username: <td><input type = "text" name ="username"><br>
+<td><p id="p_login">Username: </p><input type = "text" name ="username" class="text_login" autofocus><br>
 </tr>
 
 <tr>
-<td>Password: <td><input type = "password" name = "password"><br>
+<td><p id="p_login">Password: </p><input type = "password" name = "password" class="text_login" autofocus><br>
 </tr>
 
 <tr>
-<td>First Name: <td><input type = "text" name = "fname"><br>
+<td><p id="p_login">First Name: </p><input type = "text" name = "fname" class="text_login" autofocus><br>
 </tr>
 
 <tr>
-<td>Last Name: <td><input type = "text" name = "lname"><br>
+<td><p id="p_login">Last Name: </p><input type = "text" name = "lname" class="text_login" autofocus><br>
 </tr>
 
 </table>
